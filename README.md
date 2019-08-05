@@ -1,4 +1,11 @@
-# Rofimoji: An emoji picker for rofi
+# A fork of Rofimoji (an emoji picker for rofi) with unicode search
+
+This repository is a fork of [rofimoji by fdw](https://github.com/fdw/rofimoji) with the addition of unicode characters from [/u/fe80c0ffee](https://www.reddit.com/r/unixporn/comments/7zqkov/oc_i_mad_a_rofi_emoji_picker_and_i_feel_bad_about/duqls53?utm_source=share&utm_medium=web2x). Unicode are sorted to be shown first when invoking Rofimoji.
+
+Recommended command line to run Rofimoji from a keybinding: `python3 /path/to/rofimoji/rofimoji.py -s ask --rofi-args="-columns 3; -width 50%; -no-click-to-exit; -theme sidebar"`.
+
+## Original README.MD: 
+
 How often did you want to insert one of those Unicode emoji only to learn that there is no nice picker for Linux?
 Fear no more, this script uses the power of [rofi](https://github.com/DaveDavenport/rofi/) to present exactly the picker you always wanted.
 Inserts the selected emoji directly, or copies it to the clipboard.
