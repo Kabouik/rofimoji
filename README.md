@@ -7,6 +7,8 @@ Recommended command line to run Rofimoji from a keybinding:
 python3 /path/to/rofimoji/rofimoji.py -s ask --rofi-args="-columns 3; -width 50%; -no-click-to-exit; -theme sidebar"
 ```
 
+![Screenshot of rofimoji-fork](screenshot-fork.png?raw=true)
+
 ## Original README.MD: 
 
 How often did you want to insert one of those Unicode emoji only to learn that there is no nice picker for Linux?
