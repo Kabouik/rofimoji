@@ -4,7 +4,7 @@ This repository is a fork of [rofimoji by fdw](https://github.com/fdw/rofimoji) 
 
 Recommended command line to run Rofimoji from a keybinding:
 ```bash
-python3 /path/to/rofimoji/rofimoji.py -s ask --rofi-args="-columns 3; -width 50%; -no-click-to-exit; -theme sidebar"
+python3 /path/to/rofimoji/rofimoji.py -s ask --rofi-args="-columns 2; -width 50%; -no-click-to-exit; -theme sidebar"
 ```
 
 ![Screenshot of rofimoji-fork](screenshot-fork.png?raw=true)

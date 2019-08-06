@@ -122137,8 +122137,6 @@ def open_main_rofi_window(args: List[str], emojis: str) -> Tuple[int, bytes]:
             '-markup-rows',
             '-i',
             '-multi-select',
-            '-p',
-            ' 😀   ',
             '-kb-custom-1',
             'Alt+c',
             '-kb-custom-2',
