@@ -5,7 +5,7 @@ import sys
 from subprocess import Popen, PIPE
 from typing import List, Tuple, Union
 
-emoji_list = """space
+emoji_list = """  space
 ! exclamation mark
 " quotation mark
 # number sign
