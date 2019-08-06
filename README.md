@@ -11,7 +11,12 @@ python3 /path/to/rofimoji/rofimoji.py -s ask --rofi-args="-columns 2; -width 50%
 
 The theme used in the above screenshot is *sidebar by qball*, which can be selected as default using `rofi-theme-selector` in terminal.
 
----
+## Alternative: rofiemoji-rofiunicode
+
+Inspired by [nkoehring/rofiemoji](https://github.com/nkoehring/rofiemoji), the rofi script version of the above emoji-unicode-picker, **rofiemoji-rofiunicode** is the combination of two rofi scripts to search emojis or unicode characters directly in rofi. Unicode characters and emojis show up as separate tabs when rofi is invoked. **rofiemoji-rofiunicode** does not allow multiple selection and requires using the clipboard, but the window can be customized further and it offers a solution unified with regular rofi. This is the version I use and therefore it is more likely to be updated.
+
+![rofiemoji-rofiunicode](https://reho.st/medium/https://github.com/Kabouik/rofiemoji-rofiunicode/blob/master/rofiemoji-rofiunicode1.png)
+
 ---
 
 ## Original README from fdw:
