@@ -9,7 +9,7 @@ python3 /path/to/rofimoji/rofimoji.py -s ask --rofi-args="-columns 3; -width 50%
 
 ![Screenshot of rofimoji-fork](screenshot-fork.png?raw=true)
 
-## Original README.MD: 
+## Original README.md: 
 
 How often did you want to insert one of those Unicode emoji only to learn that there is no nice picker for Linux?
 Fear no more, this script uses the power of [rofi](https://github.com/DaveDavenport/rofi/) to present exactly the picker you always wanted.
