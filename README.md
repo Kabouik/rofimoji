@@ -1,15 +1,20 @@
-# A fork of Rofimoji (an emoji picker for rofi) with unicode search
+# rofimoji (an emoji picker for rofi) with unicode search
 
-This repository is a fork of [rofimoji by fdw](https://github.com/fdw/rofimoji) with the addition of unicode characters from [/u/fe80c0ffee](https://www.reddit.com/r/unixporn/comments/7zqkov/oc_i_mad_a_rofi_emoji_picker_and_i_feel_bad_about/duqls53?utm_source=share&utm_medium=web2x). Unicode characters are sorted to be shown first when invoking Rofimoji. A .txt file with Awesome font from [/u/Delearyus](https://www.reddit.com/r/unixporn/comments/7zqkov/oc_i_mad_a_rofi_emoji_picker_and_i_feel_bad_about/duvrlla?utm_source=share&utm_medium=web2x) is supplied too, but not included by default; one can just copy/paste its content into `rofimoji.py` between `emoji_list = """` and `"""`.
+This repository is a fork of [rofimoji by fdw](https://github.com/fdw/rofimoji) with the addition of unicode characters from [/u/fe80c0ffee](https://www.reddit.com/r/unixporn/comments/7zqkov/oc_i_mad_a_rofi_emoji_picker_and_i_feel_bad_about/duqls53?utm_source=share&utm_medium=web2x). Unicode characters are sorted to be shown first when invoking rofimoji. A .txt file with Awesome font from [/u/Delearyus](https://www.reddit.com/r/unixporn/comments/7zqkov/oc_i_mad_a_rofi_emoji_picker_and_i_feel_bad_about/duvrlla?utm_source=share&utm_medium=web2x) is supplied too, but not included by default; one can just copy/paste its content into `rofimoji.py` between `emoji_list = """` and `"""`.
 
-Recommended command line to run Rofimoji from a keybinding:
+Recommended command line to run rofimoji from a keybinding:
 ```bash
 python3 /path/to/rofimoji/rofimoji.py -s ask --rofi-args="-columns 2; -width 50%; -no-click-to-exit; -theme sidebar"
 ```
 
 ![Screenshot of rofimoji-fork](screenshot-fork.png?raw=true)
 
-## Original README.md: 
+The theme used in the above screenshot is *sidebar by qball*, which can be selected as default using `rofi-theme-selector` in terminal.
+
+---
+---
+
+## Original README from fdw:
 
 How often did you want to insert one of those Unicode emoji only to learn that there is no nice picker for Linux?
 Fear no more, this script uses the power of [rofi](https://github.com/DaveDavenport/rofi/) to present exactly the picker you always wanted.
