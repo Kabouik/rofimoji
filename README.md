@@ -15,7 +15,7 @@ The theme used in the above screenshot is *sidebar by qball*, which can be selec
 
 Inspired by [nkoehring/rofiemoji](https://github.com/nkoehring/rofiemoji), the rofi script version of the above emoji-unicode-picker, [**Kabouik/rofiemoji-rofiunicode**](https://github.com/Kabouik/rofiemoji-rofiunicode) is the combination of two rofi scripts to search emojis or unicode characters directly in rofi. Unicode characters and emojis show up as separate tabs when rofi is invoked. [rofiemoji-rofiunicode](https://github.com/Kabouik/rofiemoji-rofiunicode) does not allow multiple selection and requires using the clipboard, but the window can be customized further and it offers a solution unified with regular rofi. This is the version I use and therefore it is more likely to be updated.
 
-![rofiemoji-rofiunicode](https://reho.st/medium/raw.githubusercontent.com/Kabouik/rofiemoji-rofiunicode/master/rofiemoji-rofiunicode1.png)
+![rofiemoji-rofiunicode](https://github.com/Kabouik/rofiemoji-rofiunicode/raw/master/unicode.png?raw=true)
 
 ---
 
